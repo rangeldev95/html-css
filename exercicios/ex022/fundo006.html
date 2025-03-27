@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat: no-repeat;
-            background-size:cover;
+            background: black url(imagens/wallpaper002.jpg) center center / cover no-repeat   fixed;
+            /* 
+            background: [background-color] [background-image] [background-repeat] [background-attachment] [background-position] / [background-size] [background-origin] [background-clip];
+
+            A barra (/) é usada para separar as propriedades de posicionamento (position) e tamanho (size) da imagem de fundo na ordem shorthand da propriedade background no CSS. Isso ajuda a evitar confusão entre as propriedades de tamanho e posicionamento da imagem de fundo.
+
+            */
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 100px;
             margin: auto;
             border: 1px solid blue;
@@ -26,6 +28,10 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque magnam quo ullam temporibus facilis tempora repellat. Corrupti dolorem exercitationem distinctio quisquam aliquid fugiat assumenda esse beatae inventore! Voluptas, eveniet!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio nihil modi ipsum reiciendis, commodi unde voluptate molestias inventore dicta ducimus. Aspernatur quibusdam molestiae totam fugiat assumenda possimus rem necessitatibus animi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ab maiores nostrum nam molestias blanditiis dolorum, soluta deserunt fugit atque quasi excepturi, unde eos maxime molestiae vitae accusamus rerum eveniet?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque magnam quo ullam temporibus facilis tempora repellat. Corrupti dolorem exercitationem distinctio quisquam aliquid fugiat assumenda esse beatae inventore! Voluptas, eveniet!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio nihil modi ipsum reiciendis, commodi unde voluptate molestias inventore dicta ducimus. Aspernatur quibusdam molestiae totam fugiat assumenda possimus rem necessitatibus animi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ab maiores nostrum nam molestias blanditiis dolorum, soluta deserunt fugit atque quasi excepturi, unde eos maxime molestiae vitae accusamus rerum eveniet?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque magnam quo ullam temporibus facilis tempora repellat. Corrupti dolorem exercitationem distinctio quisquam aliquid fugiat assumenda esse beatae inventore! Voluptas, eveniet!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio nihil modi ipsum reiciendis, commodi unde voluptate molestias inventore dicta ducimus. Aspernatur quibusdam molestiae totam fugiat assumenda possimus rem necessitatibus animi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ab maiores nostrum nam molestias blanditiis dolorum, soluta deserunt fugit atque quasi excepturi, unde eos maxime molestiae vitae accusamus rerum eveniet?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque magnam quo ullam temporibus facilis tempora repellat. Corrupti dolorem exercitationem distinctio quisquam aliquid fugiat assumenda esse beatae inventore! Voluptas, eveniet!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio nihil modi ipsum reiciendis, commodi unde voluptate molestias inventore dicta ducimus. Aspernatur quibusdam molestiae totam fugiat assumenda possimus rem necessitatibus animi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ab maiores nostrum nam molestias blanditiis dolorum, soluta deserunt fugit atque quasi excepturi, unde eos maxime molestiae vitae accusamus rerum eveniet?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque magnam quo ullam temporibus facilis tempora repellat. Corrupti dolorem exercitationem distinctio quisquam aliquid fugiat assumenda esse beatae inventore! Voluptas, eveniet!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio nihil modi ipsum reiciendis, commodi unde voluptate molestias inventore dicta ducimus. Aspernatur quibusdam molestiae totam fugiat assumenda possimus rem necessitatibus animi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa ab maiores nostrum nam molestias blanditiis dolorum, soluta deserunt fugit atque quasi excepturi, unde eos maxime molestiae vitae accusamus rerum eveniet?</p>
     </main>
 </body>
